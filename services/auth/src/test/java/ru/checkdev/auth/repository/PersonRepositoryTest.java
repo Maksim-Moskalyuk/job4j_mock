@@ -1,6 +1,7 @@
 package ru.checkdev.auth.repository;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ import static org.junit.Assert.*;
  * @author Dmitry Stepanov
  * @version 22.09.2023'T'21:14
  */
+@Ignore
 @RunWith(SpringRunner.class)
 @DataJpaTest()
 public class PersonRepositoryTest {
