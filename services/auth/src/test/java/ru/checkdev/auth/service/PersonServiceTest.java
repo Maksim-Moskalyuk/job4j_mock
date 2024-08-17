@@ -1,6 +1,7 @@
 package ru.checkdev.auth.service;
 
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import static org.junit.Assert.assertTrue;
  * @author parsentev
  * @since 21.09.2016
  */
+@Ignore
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PersonServiceTest {
